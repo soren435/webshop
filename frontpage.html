@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">WebDev Pro</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signup" class="btn btn-primary">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Build Modern Web Applications Effortlessly</h1>
+                <p>Join thousands of developers using WebDev Pro to create stunning, responsive websites with ease.</p>
+                <a href="#signup" class="btn btn-primary">Get Started</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Why Choose WebDev Pro?</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>Easy-to-Use Interface</h3>
+                    <p>Our drag-and-drop interface makes web development accessible for everyone.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Powerful Tools</h3>
+                    <p>Leverage powerful integrations and tools to enhance your workflow.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Responsive Design</h3>
+                    <p>Ensure your websites look great on any device.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <h2>Pricing Plans</h2>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <p>Free forever</p>
+                    <ul>
+                        <li>Access to basic features</li>
+                        <li>Community support</li>
+                    </ul>
+                    <a href="#signup" class="btn btn-secondary">Sign Up</a>
+                </div>
+                <div class="card">
+                    <h3>Pro</h3>
+                    <p>$19.99/month</p>
+                    <ul>
+                        <li>All basic features</li>
+                        <li>Premium tools and templates</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <a href="#signup" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 WebDev Pro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
